@@ -6,4 +6,5 @@ A collection of mean one-liners that you should never, ever pipe into bash. Insp
 
 ### gitkiller.sh
 Resets git repository in current working directory to first commit.
+
 ```git reset --hard $(git log --pretty=format:%H | tail -n 1)```
